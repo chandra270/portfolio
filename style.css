@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+  padding:100px;
+}
+.bgpic{
+  background: url(../website/images/mau-background-dep.jpg);
+ height:100vh;
+  position: relative;
+  background-position: :right;
+  background-size: cover;
+}
+.bgpic h2{
+margin-top: 3em;  
+font-size: 2.25rem;
+font-weight: 600;
+font-family: fantasy;
+line-height:1.25em;
+}
+.bgpic h2 span{
+  font-size: 3.5rem;
+  font-weight: 800;
+
+}
+.bgpic h3{
+  font-size: 1.5rem;
+  color:pink;
+}
+.btn{
+  position:relative;
+  background:rgb(56, 23, 56);
+  display: inline-block;
+  color: #fff;
+  margin top:20px;
+  padding: 10px 30px;
+  font-size:18px;
+  text-transform:uppercase;
+  text-decoration:none;
+  letter-spacing:2px;
+  font-weight:650;
+ }
